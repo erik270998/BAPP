@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAPP</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--Montserrat Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.svg" />
+</head>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <a class="navbar-brand" href="#"><img src="assets/logo.svg" alt="" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="business.html">Business</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link" href="contact_us.html">Contact Us <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Navigation Bar-->
+
+    <!--Section I-->
+    <div>
+        <div class="text-white py-5">
+            <div class="container">
+                <h1 class="text-center">Get in touch with us <strong>fellow human</strong></h1>
+                <p class="text-center">If you want to reach us, you can use the forms from this page or get the personal email of our team and get in touch with them directly.</p>
+                <div class="container mt-5 p-5">
+
+                    <div class="row">
+                
+                      <div class="col-lg-12 col-lg-offset-2">
+                
+                        
+                        <form id="contact-form" method="post" action="" role="form">
+                
+                        <div class="messages"></div>
+                
+                        <div class="controls">
+                
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label for="form_name">Firstname *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label for="form_lastname">Lastname *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label for="form_phone">Phone</label>
+                                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required data-error="Please,leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                            <div>
+                                <a href="#email">
+                                    <button  class="btn btn-block btn-info btn-lg text-center" id="buttom" style="width: 100%;">Subscribe</button>
+                                </a>
+                            </div>
+                          </div>
+                         
+                        </div>
+                
+                        </form>
+                
+                      </div>
+                
+                    </div>
+                
+                  </div>
+            </div>
+        </div>
+    </div>
+
+ 
+    <!--Footer-->
+    <footer>
+      <div class="container p-3">
+          <div class="row text-center">
+              <div class="col ml-auto">
+                  <ul class="ml-auto">
+                      <li>
+                          <img src="assets/favicon.svg" width="50px" alt="">
+                      </li>
+                      <li>
+                          <a href="faq.html">FAQ</a>
+                      </li>
+                      <li>
+                          <a href="terms_and_conditions.html">Terms & Conditions</a>
+                      </li>
+                      <li>
+                          <a href="privacy_and_cookies.html">Privacy & Cookies</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="row text-center">
+              <div class="col ml-auto">
+                  <p style="font-size: 14px;">Copyright &copy; 2020 BAPP. All rights reserved</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+
+
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

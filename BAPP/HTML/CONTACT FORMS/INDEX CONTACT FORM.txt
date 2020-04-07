@@ -1,0 +1,18 @@
+Reemplaza la sección 8 del index por esta de aquí
+
+    <!--Section VIII-->
+    <div class="section_8">
+        <div class="text-white py-5" id="email">
+            <div class="container">
+                <h1 class="text-center text-white">Request early access</h1>
+                <p class="text-center text-white">Our humans are remodeling BAPP, if you want to get early access to the
+                    platform or be a beta user or
+                    tester, leave your email and we will get in contact with you.</p>
+                <div class="justify-content-center text-center"></div>
+                    <div class="powr-form-builder" id="26d4beae_1586259324"></div><script src="https://www.powr.io/powr.js?platform=embed"></script>
+                    <!-- End Button -->
+                </div>
+
+            </div>
+        </div>
+    </div>

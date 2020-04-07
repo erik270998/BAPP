@@ -1,0 +1,16 @@
+Reemplaza la sección 1 de contact_us form por esta
+
+<!--Section I-->
+    <div>
+        <div class="text-white py-5">
+            <div class="container">
+                <h1 class="text-center">Get in touch with us <strong>fellow human</strong></h1>
+                <p class="text-center">If you want to reach us, you can use the forms from this page or get the personal email of our team and get in touch with them directly.</p>
+                <div class="container mt-5 p-5 text-center">
+
+                  <div class="powr-contact-form" id="cdd17ab4_1586259100"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
+                
+                  </div>
+            </div>
+        </div>
+    </div>

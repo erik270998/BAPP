@@ -1,0 +1,104 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+  }
+  
+  
+  body {
+    padding-top: 4rem;
+    background-color: #fff;
+    margin: 0;
+  }
+
+  .h1-a {
+    background: -webkit-linear-gradient(#36a18b, #67b8a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  p {
+    color: #5d5d5d;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  nav {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  #buttom{
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  @media (max-width: 767px){
+      #reverse{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+      }
+    }
+
+    .section {
+        font-family: "Montserrat", sans-serif;
+        position: relative;
+        background-size: cover;
+        padding-top: 4.5rem;
+        padding-bottom: 4.5rem;
+        background: rgb(241, 241, 241);
+      }
+
+      .section-w {
+        font-family: "Montserrat", sans-serif;
+        position: relative;
+        background-size: cover;
+        padding-top: 4.5rem;
+        padding-bottom: 4.5rem;
+        background: rgb(255, 255, 255);
+      }
+
+      .section-r {
+        position: relative;
+        background-size: cover;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background: #36a18b;
+        background: linear-gradient(
+          0deg,
+          rgba(54, 161, 139, 1) 0%,
+          rgba(103, 184, 167, 1) 100%
+        );
+      }
+
+/************** Footer **************/
+
+.team,
+footer {
+  background: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+
+/************** Footer **************/
